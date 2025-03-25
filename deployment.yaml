@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadadata:
   name: nginx
-  lables:
+  labels:
     app: nginx
     tier: frontend
 spec:
